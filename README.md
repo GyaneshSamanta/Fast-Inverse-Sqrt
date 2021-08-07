@@ -1,7 +1,7 @@
 # A Quake III Algorithm 
 - Whilst implementing physics, lighting or reflections in a game engine, it is helpful if the vectors that are being dealt with are normalised to length one.   
 
-- Length of the vector _`L = sqrt(x^2+y^2+z^2)`_ 
+- Length of the vector _`L = {x/sqrt(x^2+y^2+z^2)}`_ Similarly for y and z.  
 
 ## Problem Statement 🛠
 
