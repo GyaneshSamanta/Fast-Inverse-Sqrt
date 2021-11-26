@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 float Q_rsqrt(float number)
 {
     long i;
@@ -13,4 +16,14 @@ float Q_rsqrt(float number)
     // y = y * (threehalfs - (x2 * y * y));
     
     return y;
+}
+
+int main()
+{
+    float inp;
+    cout<<"Input: ";
+    cin>>inp;
+    float res= Q_rsqrt(inp);
+    cout<<"The result is"<<res;
+    return 0;
 }

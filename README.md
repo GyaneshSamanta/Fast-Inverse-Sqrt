@@ -18,6 +18,21 @@
 
 ## Talk Nerdy to me 💻
 
+### IEEE 754
+
+A 32 bit number declared in c or cpp looks like 
+`00000000 00000000 00000000 00000000`
+
+In case of floating point numbers, where we want to store in the decimal places as well, we could think of the 32 bits as of something like this:
+
+`00000000 00000000 . 00000000 00000000`
+
+But a more clever and efficient way to store floating point numbers with maximum range is what IEEE 754 is about. 
+
+Read more about IEEE 754 here to understand it better 
+
+[IEEE 754](https://www.geeksforgeeks.org/ieee-standard-754-floating-point-numbers/)
+
 
 
 
